@@ -10,6 +10,7 @@
 <Style name="tiger">
   <Rule>
     <Filter>[is_tiger] = 'yes'</Filter>
+    &maxscale_zoom9;
     <LineSymbolizer>
       <CssParameter name="stroke">red</CssParameter>
       <CssParameter name="stroke-width">1</CssParameter>
@@ -17,6 +18,7 @@
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'no'</Filter>
+    &maxscale_zoom9;
     <LineSymbolizer>
       <CssParameter name="stroke">green</CssParameter>
       <CssParameter name="stroke-width">1</CssParameter>
