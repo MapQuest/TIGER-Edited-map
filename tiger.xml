@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map [
 <!ENTITY % entities SYSTEM "inc/entities.xml.inc">
+<!ENTITY % layers   SYSTEM "inc/layers.xml.inc">
 %entities;
+%layers;
 ]>
-<Map srs="&srs900913;" minimum_version="0.6.1" bgcolor="white">
+<Map srs="&srs900913;" minimum_version="0.6.1" bgcolor="#cce7ff">
 
 &fontset-settings;
+&layer-base;
 
 <Style name="tiger">
   <Rule>
@@ -47,4 +50,8 @@
     &datasource-settings;
   </Datasource>
 </Layer>
+
+&layer-text;
+
 </Map>
+
