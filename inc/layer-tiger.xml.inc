@@ -1,7 +1,55 @@
 <Style name="tiger">
   <Rule>
     <Filter>[is_tiger] = 'yes'</Filter>
+    &maxscale_zoom8;
+    <LineSymbolizer>
+      <CssParameter name="stroke">red</CssParameter>
+      <CssParameter name="stroke-width">0.1</CssParameter>
+    </LineSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>[is_tiger] = 'no'</Filter>
+    &maxscale_zoom8;
+    <LineSymbolizer>
+      <CssParameter name="stroke">green</CssParameter>
+      <CssParameter name="stroke-width">0.1</CssParameter>
+    </LineSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>[is_tiger] = 'yes'</Filter>
     &maxscale_zoom9;
+    <LineSymbolizer>
+      <CssParameter name="stroke">red</CssParameter>
+      <CssParameter name="stroke-width">0.3</CssParameter>
+    </LineSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>[is_tiger] = 'no'</Filter>
+    &maxscale_zoom9;
+    <LineSymbolizer>
+      <CssParameter name="stroke">green</CssParameter>
+      <CssParameter name="stroke-width">0.3</CssParameter>
+    </LineSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>[is_tiger] = 'yes'</Filter>
+    &maxscale_zoom11;
+    <LineSymbolizer>
+      <CssParameter name="stroke">red</CssParameter>
+      <CssParameter name="stroke-width">0.6</CssParameter>
+    </LineSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>[is_tiger] = 'no'</Filter>
+    &maxscale_zoom11;
+    <LineSymbolizer>
+      <CssParameter name="stroke">green</CssParameter>
+      <CssParameter name="stroke-width">0.6</CssParameter>
+    </LineSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>[is_tiger] = 'yes'</Filter>
+    &maxscale_zoom12;
     <LineSymbolizer>
       <CssParameter name="stroke">red</CssParameter>
       <CssParameter name="stroke-width">1</CssParameter>
@@ -9,7 +57,7 @@
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'no'</Filter>
-    &maxscale_zoom9;
+    &maxscale_zoom12;
     <LineSymbolizer>
       <CssParameter name="stroke">green</CssParameter>
       <CssParameter name="stroke-width">1</CssParameter>
