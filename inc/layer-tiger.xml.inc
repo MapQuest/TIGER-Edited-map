@@ -33,7 +33,8 @@
                   then 'yes'
               else 'no' end) as is_tiger
         from &prefix;_line
-        where highway is not null) as roads
+        where highway is not null
+        order by is_tiger desc) as roads
     </Parameter>
     &datasource-settings;
   </Datasource>
