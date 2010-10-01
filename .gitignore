@@ -1,3 +1,6 @@
 *.png
 *.py
-inc/*.inc
+inc/datasource-settings.xml.inc
+inc/entities.xml.inc
+inc/fontset-settings.xml.inc
+inc/settings.xml.inc
