@@ -5,7 +5,7 @@
 %entities;
 %layers;
 ]>
-<Map srs="&srs900913;" minimum_version="0.6.1" bgcolor="#cce7ff">
+<Map srs="&srs900913;" minimum_version="0.6.1" background-color="#cce7ff">
 
 &fontset-settings;
 

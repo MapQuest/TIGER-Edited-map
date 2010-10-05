@@ -2,17 +2,13 @@
     <Rule>
         &maxscale_zoom0;
         &minscale_zoom9;
-        <PolygonSymbolizer>
-            <CssParameter name="fill">#faf8ed</CssParameter>
-        </PolygonSymbolizer>
+        <PolygonSymbolizer fill="#faf8ed"/>
     </Rule>
 </Style>
 <Style name="coast-poly">
     <Rule>
         &maxscale_zoom10;
-        <PolygonSymbolizer>
-            <CssParameter name="fill">#f6f3e9</CssParameter>
-        </PolygonSymbolizer>
+        <PolygonSymbolizer fill="#f6f3e9"/>
     </Rule>
 </Style>
 
