@@ -55,6 +55,10 @@
                     and osm_timestamp::timestamp &gt;= '2007-10-29'::timestamp
                     and osm_timestamp::timestamp &lt;= '2007-12-12'::timestamp
                   then 'yes'
+              when osm_uid = '20587' -- balrog-kun
+                    and osm_timestamp::timestamp &gt;= '2010-03-21'::timestamp
+                    and osm_timestamp::timestamp &lt;= '2010-04-08'::timestamp
+                  then 'yes'
               else 'no' end) as is_tiger
         from &prefix;_line
         where highway is not null
