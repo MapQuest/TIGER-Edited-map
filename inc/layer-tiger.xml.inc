@@ -48,7 +48,7 @@
     <Parameter name="table">
       (select way,
         (case when osm_uid = '7168' -- DaveHansenTiger
-                    and osm_timestamp::timestamp &gt;= '2007-09-01'::timestamp
+                    and osm_timestamp::timestamp &gt;= '2007-08-03'::timestamp
                     and osm_timestamp::timestamp &lt;= '2008-05-04'::timestamp
                   then 'yes'
               when osm_uid = '15169' -- Milenko
