@@ -58,6 +58,7 @@
               when osm_uid = '20587' -- balrog-kun
                     and osm_timestamp::timestamp &gt;= '2010-03-21'::timestamp
                     and osm_timestamp::timestamp &lt;= '2010-04-08'::timestamp
+                    and osm_version::int &lt; 3 -- maybe someone else edited between import and name expansion
                   then 'yes'
               else 'no' end) as is_tiger
         from &prefix;_line
