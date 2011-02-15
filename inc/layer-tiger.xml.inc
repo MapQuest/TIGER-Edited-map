@@ -2,42 +2,42 @@
   <Rule>
     <Filter>[is_tiger] = 'yes'</Filter>
     &maxscale_zoom8;
-    <LineSymbolizer stroke="red" stroke-width="0.1"/>
+    <LineSymbolizer stroke="#d95f02" stroke-width="0.1"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'no'</Filter>
     &maxscale_zoom8;
-    <LineSymbolizer stroke="green" stroke-width="0.1"/>
+    <LineSymbolizer stroke="#1b9e77" stroke-width="0.1"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'yes'</Filter>
     &maxscale_zoom9;
-    <LineSymbolizer stroke="red" stroke-width="0.3"/>
+    <LineSymbolizer stroke="#d95f02" stroke-width="0.3"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'no'</Filter>
     &maxscale_zoom9;
-    <LineSymbolizer stroke="green" stroke-width="0.3"/>
+    <LineSymbolizer stroke="#1b9e77" stroke-width="0.3"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'yes'</Filter>
     &maxscale_zoom11;
-    <LineSymbolizer stroke="red" stroke-width="0.6"/>
+    <LineSymbolizer stroke="#d95f02" stroke-width="0.6"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'no'</Filter>
     &maxscale_zoom11;
-    <LineSymbolizer stroke="green" stroke-width="0.6"/>
+    <LineSymbolizer stroke="#1b9e77" stroke-width="0.6"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'yes'</Filter>
     &maxscale_zoom12;
-    <LineSymbolizer stroke="red" stroke-width="1"/>
+    <LineSymbolizer stroke="#d95f02" stroke-width="1"/>
   </Rule>
   <Rule>
     <Filter>[is_tiger] = 'no'</Filter>
     &maxscale_zoom12;
-    <LineSymbolizer stroke="green" stroke-width="1"/>
+    <LineSymbolizer stroke="#1b9e77" stroke-width="1"/>
   </Rule>
 </Style>
 
